@@ -28,12 +28,12 @@ public class PracticeRobot {
     private DcMotor frontRight;
     private DcMotor backLeft;
     private DcMotor backRight;
+    private Servo leftEye;
     public double nosePwr;
-    public Servo leftEye;
-    public CRServo nose;
+    private CRServo nose;
     public IMU imu;
 
-    public void init(){
+    public void init(final HardwareMap hardwareMap){
 
     }
 
